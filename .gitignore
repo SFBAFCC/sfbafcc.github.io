@@ -1,0 +1,12 @@
+# Jekyll build output
+_site/
+.jekyll-cache/
+.sass-cache/
+
+# Bundler
+.bundle/
+vendor/
+
+# OS / editor junk
+.DS_Store
+Thumbs.db

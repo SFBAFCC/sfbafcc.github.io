@@ -1,0 +1,178 @@
+/* -----------------------------------------------------------
+   GLOBAL
+----------------------------------------------------------- */
+
+/* Global content width */
+.content {
+  max-width: 630px;
+  margin: 40px auto;
+}
+
+
+body {
+  margin: 0;
+  font-family: Calibri, Arial, Helvetica, sans-serif;
+  background: #f4f7fa;
+  color: #1a1a1a;
+  line-height: 1.6;
+#  font-size: 1.15rem;
+}
+
+}
+
+a {
+  color: #2b4c6f;
+  text-decoration: none;
+}
+
+/* Dark background for all subpages */
+body.subpage {
+  background: #2b3a4a; /* same tone as section-dark */
+}
+
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* -----------------------------------------------------------
+   HERO (shared across all pages via _includes/header.html)
+----------------------------------------------------------- */
+
+.hero {
+  background: linear-gradient(135deg, #2b4c6f 0%, #4f7ca6 60%, #7fa6c9 100%);
+  padding: 50px 20px 40px;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+.hero img {
+  width: 120px;
+  height: auto;
+}
+
+.hero-text {
+  max-width: 630px;
+  text-align: left;
+}
+
+.hero-text h1 {
+  margin: 0;
+  font-size: 2.2em;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.hero-text p {
+  margin-top: 10px;
+  font-size: 1.15em;
+  color: #e8eef2;
+}
+
+@media (min-width: 700px) {
+  .hero-text {
+    white-space: nowrap;
+  }
+}
+/* -----------------------------------------------------------
+   SECTION STYLES
+   - Dark: index.html
+   - Light: all subpages
+----------------------------------------------------------- */
+
+/* DARK SECTIONS (index.html only) */
+.section-dark {
+  background: #2b3a4a;
+  color: #e8eef2;
+  padding: 40px 20px;
+  max-width: 630px;
+  margin: 40px auto;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.25);
+}
+
+.section-dark h2 {
+  color: #ffd166;
+  border-bottom: 3px solid #ffd166;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+}
+
+.section-dark a {
+  color: #ffd166; /* gold */
+}
+
+.section-dark a:hover {
+  color: #ffeb9a; /* lighter gold for hover */
+}
+
+
+/* LIGHT SECTIONS (all subpages) */
+.section-light {
+  background: #ffffff;
+  color: #1a1a1a;
+  padding: 40px 20px;
+  max-width: 630px;
+  margin: 40px auto;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}
+
+.section-light h2,
+.section-light h3 {
+  color: #2b4c6f;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+  border-bottom: 3px solid #ffd166; /* default gold */
+}
+
+.section-light ul {
+  padding-left: 20px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.section-light li {
+  margin-bottom: 8px;
+}
+
+
+/* -----------------------------------------------------------
+   SPECIAL: RAINBOW UNDERLINE (Frameline page only)
+----------------------------------------------------------- */
+
+.rainbow-underline {
+  border-bottom: 6px solid transparent;
+  border-image: linear-gradient(
+    90deg,
+    #ff0000,
+    #ff7f00,
+    #ffff00,
+    #00ff00,
+    #0000ff,
+    #4b0082,
+    #9400d3
+  ) 1;
+}
+
+/* -----------------------------------------------------------
+   FOOTER
+----------------------------------------------------------- */
+
+footer {
+  background: #2b4c6f;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+  font-size: 0.95em;
+}
+
+
+
+
+
