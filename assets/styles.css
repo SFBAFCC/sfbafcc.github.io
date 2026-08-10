@@ -25,6 +25,11 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  text-decoration: underline;
+}
+
+
 /* Dark background for all subpages */
 body.subpage {
   background: #2b3a4a; /* same tone as section-dark */
@@ -34,6 +39,15 @@ body.subpage {
 a:hover {
   text-decoration: underline;
 }
+
+a.year-link {
+  text-decoration: none;
+}
+
+a.year-link:hover {
+  text-decoration: underline;
+}
+
 
 /* -----------------------------------------------------------
    HERO (shared across all pages via _includes/header.html)
