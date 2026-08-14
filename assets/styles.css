@@ -268,7 +268,7 @@ footer .footer-social svg {
    Subpage Layout (matches other pages but narrower for members)
    ----------------------------------------------------------- */
 .subpage-content {
-  max-width: 250px;
+  max-width: 350px;
   margin: 0 auto;
   padding: 20px;
   box-sizing: border-box;
